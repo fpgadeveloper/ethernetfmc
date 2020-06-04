@@ -8,12 +8,43 @@ Board Files
 Ethernet FMC
 ------------
 
-#. `Ethernet FMC Rev-A Schematics PDF <http://ethernetfmc.com/downloads/96BQuadEth_SCH_RevA-2.PDF>`_
-#. `Ethernet FMC Rev-A Assembly Drawing PDF <http://ethernetfmc.com/downloads/96BQuadEth_ASSM_RevA.PDF>`_
-#. `Ethernet FMC Rev-A 3D STEP model <http://ethernetfmc.com/downloads/96BQuadEthernetRevA-3D.zip>`_
+Rev-D
+^^^^^
+
+#. `Ethernet FMC Rev-D Schematics PDF <http://ethernetfmc.com/downloads/EthFMC_SCH_RevD-1.PDF>`_
+#. `Ethernet FMC Rev-D Assembly Drawing PDF <http://ethernetfmc.com/downloads/EthFMC_ASSM_RevD.PDF>`_
+#. `Ethernet FMC Rev-D 3D STEP model <http://ethernetfmc.com/downloads/EthernetFMC_RevD_3D.zip>`_
+
+Rev-E
+^^^^^
+
+#. `Ethernet FMC Rev-E Schematics PDF <http://ethernetfmc.com/downloads/EthFMC_SCH_RevE-1.PDF>`_
+#. `Ethernet FMC Rev-E Assembly Drawing PDF <http://ethernetfmc.com/downloads/EthFMC_ASSM_RevE.PDF>`_
+#. `Ethernet FMC Rev-E 3D STEP model <http://ethernetfmc.com/downloads/EthernetFMC_RevE_3D.zip>`_
+
+Rev-F
+^^^^^
+
+#. `Ethernet FMC Rev-F Schematics PDF <http://ethernetfmc.com/downloads/EthFMC_SCH_RevF-1.PDF>`_
+#. `Ethernet FMC Rev-F Assembly Drawing PDF <http://ethernetfmc.com/downloads/EthFMC_ASSM_RevF.PDF>`_
+#. `Ethernet FMC Rev-F 3D STEP model <http://ethernetfmc.com/downloads/EthernetFMC_RevF_3D.zip>`_
 
 Robust Ethernet FMC
 -------------------
+
+Rev-C
+^^^^^
+
+#. `Robust Ethernet FMC Rev-C Schematics PDF <http://ethernetfmc.com/downloads/RobustEthFMC_SCH_RevC-1.PDF>`_
+#. `Robust Ethernet FMC Rev-C Assembly Drawing PDF <http://ethernetfmc.com/downloads/RobustEthFMC_ASSM_RevC.PDF>`_
+#. `Robust Ethernet FMC Rev-C 3D STEP model <http://ethernetfmc.com/downloads/RobustEthernetFMC_RevC_3D.zip>`_
+
+Rev-D
+^^^^^
+
+#. `Robust Ethernet FMC Rev-D Schematics PDF <http://ethernetfmc.com/downloads/RobustEthFMC_SCH_RevD-1.PDF>`_
+#. `Robust Ethernet FMC Rev-D Assembly Drawing PDF <http://ethernetfmc.com/downloads/RobustEthFMC_ASSM_RevD.PDF>`_
+#. `Robust Ethernet FMC Rev-D 3D STEP model <http://ethernetfmc.com/downloads/RobustEthernetFMC_RevD_3D.zip>`_
 
 
 Part Datasheets

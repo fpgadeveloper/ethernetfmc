@@ -15,62 +15,111 @@ The following development boards have been verified compatible with the Ethernet
 information regarding compatibility with a particular development board, including the availability
 of an example design, click on the name of the board in the table below.
 
+Zynq-7000 boards
+----------------
+
 +---------------------------------------+----------------------------+-----------------------+
 | Development board                     | Compatible with            | Compatible P/Ns       |
 +=======================================+============================+=======================+
-| :ref:`zedboard-notes`                 | | Ethernet FMC 2.5V        | | OP031-2V5           |
-|                                       | | Robust Ethernet FMC 2.5V | | OP041-2V5           |
+| :ref:`zedboard-notes`                 | Ethernet FMC 2.5V          | OP031-2V5             |
+|                                       +----------------------------+-----------------------+
+|                                       | Robust Ethernet FMC 2.5V   | OP041-2V5             |
 +---------------------------------------+----------------------------+-----------------------+
-| :ref:`ac701-notes`                    | | Ethernet FMC 2.5V        | | OP031-2V5           |
-|                                       | | Robust Ethernet FMC 2.5V | | OP041-2V5           |
+| :ref:`zc702-notes`                    | Ethernet FMC 2.5V          | OP031-2V5             |
+|                                       +----------------------------+-----------------------+
+|                                       | Robust Ethernet FMC 2.5V   | OP041-2V5             |
 +---------------------------------------+----------------------------+-----------------------+
-| :ref:`kc705-notes`                    | | Ethernet FMC 2.5V        | | OP031-2V5           |
-|                                       | | Robust Ethernet FMC 2.5V | | OP041-2V5           |
+| :ref:`zc706-notes`                    | Ethernet FMC 2.5V          | OP031-2V5             |
+|                                       +----------------------------+-----------------------+
+|                                       | Robust Ethernet FMC 2.5V   | OP041-2V5             |
 +---------------------------------------+----------------------------+-----------------------+
-| :ref:`vc707-notes`                    | | Ethernet FMC 1.8V        | | OP031-1V8           |
-|                                       | | Robust Ethernet FMC 1.8V | | OP041-1V8           |
+| :ref:`picozed-fmc-carrier-v2-notes`   | Robust Ethernet FMC 1.8V   | OP041-1V8             |
+|                                       +----------------------------+-----------------------+
+|                                       | Robust Ethernet FMC 2.5V   | OP041-2V5             |
 +---------------------------------------+----------------------------+-----------------------+
-| :ref:`vc709-notes`                    | | Ethernet FMC 1.8V        | | OP031-1V8           |
-|                                       | | Robust Ethernet FMC 1.8V | | OP041-1V8           |
+| :ref:`microzed-fmc-carrier-notes`     | Robust Ethernet FMC 2.5V   | OP041-2V5             |
 +---------------------------------------+----------------------------+-----------------------+
-| :ref:`zc702-notes`                    | | Ethernet FMC 2.5V        | | OP031-2V5           |
-|                                       | | Robust Ethernet FMC 2.5V | | OP041-2V5           |
+
+Zynq Ultrascale+ boards
+-----------------------
+
 +---------------------------------------+----------------------------+-----------------------+
-| :ref:`zc706-notes`                    | | Ethernet FMC 2.5V        | | OP031-2V5           |
-|                                       | | Robust Ethernet FMC 2.5V | | OP041-2V5           |
+| Development board                     | Compatible with            | Compatible P/Ns       |
++=======================================+============================+=======================+
+| :ref:`zcu102-rev-d-notes`             | Ethernet FMC 1.8V          | OP031-1V8             |
+|                                       +----------------------------+-----------------------+
+|                                       | Robust Ethernet FMC 1.8V   | OP041-1V8             |
 +---------------------------------------+----------------------------+-----------------------+
-| :ref:`picozed-fmc-carrier-v2-notes`   | | Robust Ethernet FMC 1.8V | | OP041-1V8           |
-|                                       | | Robust Ethernet FMC 2.5V | | OP041-2V5           |
+| :ref:`zcu102-notes`                   | Ethernet FMC 1.8V          | OP031-1V8             |
+|                                       +----------------------------+-----------------------+
+|                                       | Robust Ethernet FMC 1.8V   | OP041-1V8             |
 +---------------------------------------+----------------------------+-----------------------+
-| :ref:`microzed-fmc-carrier-notes`     | | Robust Ethernet FMC 2.5V | | OP041-2V5           |
+| :ref:`zcu104-notes`                   | Ethernet FMC 1.8V          | OP031-1V8             |
+|                                       +----------------------------+-----------------------+
+|                                       | Robust Ethernet FMC 1.8V   | OP041-1V8             |
 +---------------------------------------+----------------------------+-----------------------+
-| :ref:`ml605-notes`                    | | Ethernet FMC 2.5V        | | OP031-2V5           |
-|                                       | | Robust Ethernet FMC 2.5V | | OP041-2V5           |
+| :ref:`zcu106-notes`                   | Ethernet FMC 1.8V          | OP031-1V8             |
+|                                       +----------------------------+-----------------------+
+|                                       | Robust Ethernet FMC 1.8V   | OP041-1V8             |
 +---------------------------------------+----------------------------+-----------------------+
-| :ref:`kcu105-notes`                   | | Ethernet FMC 1.8V        | | OP031-1V8           |
-|                                       | | Robust Ethernet FMC 1.8V | | OP041-1V8           |
+| :ref:`ultrazed-eg-notes`              | Ethernet FMC 1.8V          | OP031-1V8             |
+|                                       +----------------------------+-----------------------+
+|                                       | Robust Ethernet FMC 1.8V   | OP041-1V8             |
 +---------------------------------------+----------------------------+-----------------------+
-| :ref:`zcu102-rev-d-notes`             | | Ethernet FMC 1.8V        | | OP031-1V8           |
-|                                       | | Robust Ethernet FMC 1.8V | | OP041-1V8           |
+| :ref:`tebf0808-notes`                 | Robust Ethernet FMC 1.8V   | OP041-1V8             |
 +---------------------------------------+----------------------------+-----------------------+
-| :ref:`zcu102-notes`                   | | Ethernet FMC 1.8V        | | OP031-1V8           |
-|                                       | | Robust Ethernet FMC 1.8V | | OP041-1V8           |
+
+
+Series-7 boards
+---------------
+
 +---------------------------------------+----------------------------+-----------------------+
-| :ref:`zcu104-notes`                   | | Ethernet FMC 1.8V        | | OP031-1V8           |
-|                                       | | Robust Ethernet FMC 1.8V | | OP041-1V8           |
+| Development board                     | Compatible with            | Compatible P/Ns       |
++=======================================+============================+=======================+
+| :ref:`ac701-notes`                    | Ethernet FMC 2.5V          | OP031-2V5             |
+|                                       +----------------------------+-----------------------+
+|                                       | Robust Ethernet FMC 2.5V   | OP041-2V5             |
 +---------------------------------------+----------------------------+-----------------------+
-| :ref:`zcu106-notes`                   | | Ethernet FMC 1.8V        | | OP031-1V8           |
-|                                       | | Robust Ethernet FMC 1.8V | | OP041-1V8           |
+| :ref:`kc705-notes`                    | Ethernet FMC 2.5V          | OP031-2V5             |
+|                                       +----------------------------+-----------------------+
+|                                       | Robust Ethernet FMC 2.5V   | OP041-2V5             |
 +---------------------------------------+----------------------------+-----------------------+
-| :ref:`vcu108-notes`                   | | Ethernet FMC 1.8V        | | OP031-1V8           |
-|                                       | | Robust Ethernet FMC 1.8V | | OP041-1V8           |
+| :ref:`vc707-notes`                    | Ethernet FMC 1.8V          | OP031-1V8             |
+|                                       +----------------------------+-----------------------+
+|                                       | Robust Ethernet FMC 1.8V   | OP041-1V8             |
 +---------------------------------------+----------------------------+-----------------------+
-| :ref:`vcu118-notes`                   | | Ethernet FMC 1.8V        | | OP031-1V8           |
-|                                       | | Robust Ethernet FMC 1.8V | | OP041-1V8           |
+| :ref:`vc709-notes`                    | Ethernet FMC 1.8V          | OP031-1V8             |
+|                                       +----------------------------+-----------------------+
+|                                       | Robust Ethernet FMC 1.8V   | OP041-1V8             |
 +---------------------------------------+----------------------------+-----------------------+
-| :ref:`arria-10-attila-notes`          | | Robust Ethernet FMC 1.8V | | OP041-1V8           |
+
+Ultrascale and Ultrascale+ boards
+---------------------------------
+
 +---------------------------------------+----------------------------+-----------------------+
-| :ref:`tebf0808-notes`                 | | Robust Ethernet FMC 1.8V | | OP041-1V8           |
+| Development board                     | Compatible with            | Compatible P/Ns       |
++=======================================+============================+=======================+
+| :ref:`kcu105-notes`                   | Ethernet FMC 1.8V          | OP031-1V8             |
+|                                       +----------------------------+-----------------------+
+|                                       | Robust Ethernet FMC 1.8V   | OP041-1V8             |
++---------------------------------------+----------------------------+-----------------------+
+| :ref:`vcu108-notes`                   | Ethernet FMC 1.8V          | OP031-1V8             |
+|                                       +----------------------------+-----------------------+
+|                                       | Robust Ethernet FMC 1.8V   | OP041-1V8             |
++---------------------------------------+----------------------------+-----------------------+
+| :ref:`vcu118-notes`                   | Ethernet FMC 1.8V          | OP031-1V8             |
+|                                       +----------------------------+-----------------------+
+|                                       | Robust Ethernet FMC 1.8V   | OP041-1V8             |
++---------------------------------------+----------------------------+-----------------------+
+
+
+Other boards
+------------
+
++---------------------------------------+----------------------------+-----------------------+
+| Development board                     | Compatible with            | Compatible P/Ns       |
++=======================================+============================+=======================+
+| :ref:`arria-10-attila-notes`          | Robust Ethernet FMC 1.8V   | OP041-1V8             |
 +---------------------------------------+----------------------------+-----------------------+
 
 
@@ -130,8 +179,8 @@ Mates with
 Example designs
 ---------------
 
-* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth>`_
-* `Zynq GEM based design <https://github.com/fpgadeveloper/ethernet-fmc-zynq-gem>`_
+* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth>`__
+* `Zynq GEM based design <https://github.com/fpgadeveloper/ethernet-fmc-zynq-gem>`__
 
 Connectors
 ----------
@@ -159,7 +208,7 @@ Mates with
 Example designs
 ---------------
 
-* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth>`_
+* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth>`__
 
 Connectors
 ----------
@@ -180,7 +229,7 @@ Mates with
 Example designs
 ---------------
 
-* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth>`_
+* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth>`__
 
 Connectors
 ----------
@@ -202,7 +251,7 @@ Mates with
 Example designs
 ---------------
 
-* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth>`_
+* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth>`__
 
 Connectors
 ----------
@@ -224,7 +273,7 @@ Mates with
 Example designs
 ---------------
 
-* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth>`_
+* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth>`__
 
 Connectors
 ----------
@@ -245,8 +294,8 @@ Mates with
 Example designs
 ---------------
 
-* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth>`_
-* `Zynq GEM based design <https://github.com/fpgadeveloper/ethernet-fmc-zynq-gem>`_
+* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth>`__
+* `Zynq GEM based design <https://github.com/fpgadeveloper/ethernet-fmc-zynq-gem>`__
 
 Connectors
 ----------
@@ -268,8 +317,8 @@ Mates with
 Example designs
 ---------------
 
-* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth>`_
-* `Zynq GEM based design <https://github.com/fpgadeveloper/ethernet-fmc-zynq-gem>`_
+* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth>`__
+* `Zynq GEM based design <https://github.com/fpgadeveloper/ethernet-fmc-zynq-gem>`__
 
 Connectors
 ----------
@@ -296,8 +345,8 @@ Mates with
 Example designs
 ---------------
 
-* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth>`_
-* `Zynq GEM based design <https://github.com/fpgadeveloper/ethernet-fmc-zynq-gem>`_
+* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth>`__
+* `Zynq GEM based design <https://github.com/fpgadeveloper/ethernet-fmc-zynq-gem>`__
 
 Connectors
 ----------
@@ -317,8 +366,29 @@ Mates with
 Example designs
 ---------------
 
-* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth>`_ (for MicroZed 7020 only)
-* `Zynq GEM based design <https://github.com/fpgadeveloper/ethernet-fmc-zynq-gem>`_
+* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth>`__ (for MicroZed 7020 only)
+* `Zynq GEM based design <https://github.com/fpgadeveloper/ethernet-fmc-zynq-gem>`__
+
+Connectors
+----------
+
+* **LPC**: Satisfies all of the Ethernet FMC requirements.
+
+.. _ultrazed-eg-notes:
+
+UltraZed EG PCIe Carrier Card
+=============================
+
+Mates with
+----------
+
+* `Ethernet FMC 1.8V <https://opsero.com/product/ethernet-fmc/?attribute_supply-voltage-vadj=1.8V>`__ (see note [#f2]_)
+* `Robust Ethernet FMC 1.8V <https://opsero.com/product/robust-ethernet-fmc/?attribute_supply-voltage-vadj=1.8V>`__ (see note [#f2]_)
+
+Example designs
+---------------
+
+* `Zynq GEM based design <https://github.com/fpgadeveloper/ethernet-fmc-zynq-gem>`__
 
 Connectors
 ----------
@@ -362,7 +432,7 @@ Mates with
 Example designs
 ---------------
 
-* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth>`_
+* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth>`__
 
 Connectors
 ----------
@@ -384,9 +454,9 @@ Mates with
 Example designs
 ---------------
 
-* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth/tree/982ed68e779a88edb419eaa7ebef2221a77a4926>`_ 
+* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth/tree/982ed68e779a88edb419eaa7ebef2221a77a4926>`__
   (only for version 2016.4)
-* `ZynqMP GEM based design <https://github.com/fpgadeveloper/ethernet-fmc-zynq-gem/tree/a041ff5146a60e9d2caa95e61ce85d8acb885d76>`_
+* `ZynqMP GEM based design <https://github.com/fpgadeveloper/ethernet-fmc-zynq-gem/tree/a041ff5146a60e9d2caa95e61ce85d8acb885d76>`__
   (only for version 2016.4)
 
 Connectors
@@ -410,8 +480,8 @@ Mates with
 Example designs
 ---------------
 
-* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth>`_
-* `ZynqMP GEM based design <https://github.com/fpgadeveloper/ethernet-fmc-zynq-gem>`_
+* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth>`__
+* `ZynqMP GEM based design <https://github.com/fpgadeveloper/ethernet-fmc-zynq-gem>`__
 
 Connectors
 ----------
@@ -434,7 +504,7 @@ Mates with
 Example designs
 ---------------
 
-* `ZynqMP GEM based design <https://github.com/fpgadeveloper/ethernet-fmc-zynq-gem>`_
+* `ZynqMP GEM based design <https://github.com/fpgadeveloper/ethernet-fmc-zynq-gem>`__
 
 Connectors
 ----------
@@ -455,7 +525,7 @@ Mates with
 Example designs
 ---------------
 
-* `ZynqMP GEM based design <https://github.com/fpgadeveloper/ethernet-fmc-zynq-gem>`_
+* `ZynqMP GEM based design <https://github.com/fpgadeveloper/ethernet-fmc-zynq-gem>`__
 
 Connectors
 ----------
@@ -477,7 +547,7 @@ Mates with
 Example designs
 ---------------
 
-* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth/tree/9ba57cbffa3a55026fbf4855c8f9d1a746369ed5>`_ 
+* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth/tree/9ba57cbffa3a55026fbf4855c8f9d1a746369ed5>`__ 
   (currently only available for version 2018.2 and for the HPC0 connector)
 
 Connectors
@@ -552,7 +622,7 @@ Mates with
 Example designs
 ---------------
 
-* `ZynqMP GEM based design <https://github.com/fpgadeveloper/ethernet-fmc-zynq-gem>`_
+* `ZynqMP GEM based design <https://github.com/fpgadeveloper/ethernet-fmc-zynq-gem>`__
 
 Configuration
 -------------
