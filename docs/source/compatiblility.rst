@@ -62,7 +62,9 @@ Zynq Ultrascale+ boards
 |                                       +----------------------------+-----------------------+
 |                                       | Robust Ethernet FMC 1.8V   | OP041-1V8             |
 +---------------------------------------+----------------------------+-----------------------+
-| :ref:`ultrazed-eg-notes`              | Ethernet FMC 1.8V          | OP031-1V8             |
+| :ref:`ultrazed-eg-notes`              | Robust Ethernet FMC 1.8V   | OP041-1V8             |
++---------------------------------------+----------------------------+-----------------------+
+| :ref:`ultrazed-ev-notes`              | Ethernet FMC 1.8V          | OP031-1V8             |
 |                                       +----------------------------+-----------------------+
 |                                       | Robust Ethernet FMC 1.8V   | OP041-1V8             |
 +---------------------------------------+----------------------------+-----------------------+
@@ -382,7 +384,6 @@ UltraZed EG PCIe Carrier Card
 Mates with
 ----------
 
-* `Ethernet FMC 1.8V <https://opsero.com/product/ethernet-fmc/?attribute_supply-voltage-vadj=1.8V>`__ (see note [#f2]_)
 * `Robust Ethernet FMC 1.8V <https://opsero.com/product/robust-ethernet-fmc/?attribute_supply-voltage-vadj=1.8V>`__ (see note [#f2]_)
 
 Example designs
@@ -394,6 +395,33 @@ Connectors
 ----------
 
 * **LPC**: Satisfies all of the Ethernet FMC requirements.
+
+.. _ultrazed-ev-notes:
+
+UltraZed EV Carrier Card
+========================
+
+Mates with
+----------
+
+* `Ethernet FMC 1.8V <https://opsero.com/product/ethernet-fmc/?attribute_supply-voltage-vadj=1.8V>`__
+* `Robust Ethernet FMC 1.8V <https://opsero.com/product/robust-ethernet-fmc/?attribute_supply-voltage-vadj=1.8V>`__
+
+Example designs
+---------------
+
+* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth>`__
+* `Zynq GEM based design <https://github.com/fpgadeveloper/ethernet-fmc-zynq-gem>`__
+
+Connectors
+----------
+
+* **HPC**: Satisfies all of the Ethernet FMC requirements.
+
+VADJ
+----
+
+This board has a fixed 1.8V VADJ voltage.
 
 .. _ml605-notes:
 
@@ -578,8 +606,9 @@ Mates with
 Example designs
 ---------------
 
-* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth/tree/898cae123256e1c11487862a3bcfc142d4e91c5d>`_
-  (currently only available for ES1 silicon, only for version 2017.2 and only for the HPC connector)
+* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth>`__
+* For ES1 silicon: `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth/tree/898cae123256e1c11487862a3bcfc142d4e91c5d>`__
+  (version 2017.2 and only for the HPC connector)
 
 Connectors
 ----------
