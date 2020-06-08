@@ -57,6 +57,8 @@ html_logo = 'ethernet-fmc-logo.png'
 
 html_favicon = 'favicon.png'
 
+html_show_sourcelink = False
+
 html_theme_options = {
     'canonical_url': '',
     'logo_only': True,
