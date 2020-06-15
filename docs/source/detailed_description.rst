@@ -275,6 +275,10 @@ Each of the 4x 88E151x PHYs is connected to a 25MHz crystal for generation of it
 clocks. The Ethernet FMC also has a 125MHz MEMS clock oscillator with LVDS output to provide the FPGA
 fabric with a precision clock for driving the Ethernet MACs.
 
+Each 88E151x PHY has a CLK125 pin that outputs a 125MHz clock that is synchronized with the 25MHz 
+reference clock. Due to the limited number of pins on the LPC FMC connector, the CLK125 pins are left
+unconnected on the mezzanine card, hence these clocks are not available to the carrier board.
+
 
 Resets
 ======
