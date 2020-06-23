@@ -60,6 +60,8 @@ Ethernet FMC
 #. `Quad RJ45 connector with magnetics, LPJG48851AFNL, Link-PP <http://www.link-pp.com/?product/201605079855.html>`_
 #. `Crystal 25MHz, 8Z-25.000MAAJ-T, TXC <http://www.txccorp.com/download/products/quartz_crystals/2015TXC_8Z_16.pdf>`_
 #. `Low pin count FMC connector, ASP-134604-01, Samtec <http://suddendocs.samtec.com/prints/asp-134604-01.pdf>`_
+#. `Precision LVDS Oscillator 125MHz, DSC1123CI2-125.0000, Microchip <http://ww1.microchip.com/downloads/en/DeviceDoc/DSC1103-23-Low-Jitter-Precision-LVDS-Oscillator-DS20005745C.pdf>`_
+#. `2Kbit serial I2C EEPROM, M24C02-FDW6TP, Microchip <https://www.st.com/en/memories/m24c02-f.html>`_
 
 Robust Ethernet FMC
 -------------------
@@ -69,4 +71,5 @@ Robust Ethernet FMC
 #. `Ethernet magnetics, HX5020FNL, Pulse Electronics <https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/HX5020FNL/doc_part/HX5020FNL.pdf>`_
 #. `Crystal 25MHz, 8Z-25.000MAAJ-T, TXC <http://www.txccorp.com/download/products/quartz_crystals/2015TXC_8Z_16.pdf>`_
 #. `Low pin count FMC connector, ASP-134604-01, Samtec <http://suddendocs.samtec.com/prints/asp-134604-01.pdf>`_
-
+#. `Precision LVDS Oscillator 125MHz, DSC1123CI2-125.0000, Microchip <http://ww1.microchip.com/downloads/en/DeviceDoc/DSC1103-23-Low-Jitter-Precision-LVDS-Oscillator-DS20005745C.pdf>`_
+#. `2Kbit serial I2C EEPROM, M24C02-FDW6TP, Microchip <https://www.st.com/en/memories/m24c02-f.html>`_

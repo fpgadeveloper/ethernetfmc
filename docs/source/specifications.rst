@@ -8,13 +8,13 @@ Recommended Operating Conditions
 +-------------------+------------------------+------------+------------+-----------+--------+
 |                                            | MIN        | TYP        | MAX       | UNIT   |
 +===================+========================+============+============+===========+========+
-| Supply voltage    | 12 VDC                 |    +12     |    +12     |    +12    |    V   |
+| Supply voltage    | 12 VDC                 |    +11.4   |    +12     |    +12.6  |    V   |
 |                   +------------------------+------------+------------+-----------+--------+
-|                   | 3.3 VDC                |    +3.3    |    +3.3    |    +3.3   |    V   |
+|                   | 3.3 VDC                |    +3.14   |    +3.3    |    +3.46  |    V   |
 |                   +------------------------+------------+------------+-----------+--------+
-|                   | VADJ 2.5VDC            |    +2.5    |    +2.5    |    +2.5   |    V   |
+|                   | VADJ 2.5VDC            |    +2.38   |    +2.5    |    +2.62  |    V   |
 |                   +------------------------+------------+------------+-----------+--------+
-|                   | VADJ 1.8VDC            |    +1.8    |    +1.8    |    +1.8   |    V   |
+|                   | VADJ 1.8VDC            |    +1.71   |    +1.8    |    +1.89  |    V   |
 +-------------------+------------------------+------------+------------+-----------+--------+
 
 Power Consumption
@@ -51,6 +51,12 @@ When hardware resetting the PHYs, we recommend using this timing:
 
 #. Hold the RESET_N signal LOW for 10ms
 #. Release the RESET_N signal (HIGH) and wait for 5ms
+
+
+I2C (EEPROM) Timing
+===================
+
+The serial EEPROM (part number M24C02-FDW6TP) has a maximum operating clock frequency of 400 kHz.
 
 
 MDIO Timing
