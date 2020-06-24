@@ -86,12 +86,53 @@ There are 4x Marvell 88E151x Gigabit Ethernet PHYs on the mezzanine card, one fo
 of the four Gigabit Ethernet ports. For interfacing with a MAC, the 88E151x has 
 an RGMII (Reduced pin count GMII) interface. The 88E151x is designed for low-power and
 supports Synchronous Ethernet (SyncE) and Precise Timing Protocol (PTP) Time Stamping. 
-For more specific information on the 88E151x, please refer to the 
-`datasheet <https://www.marvell.com/content/dam/marvell/en/public-collateral/transceivers/marvell-phys-transceivers-alaska-88e151x-datasheet-2018-02.pdf>`_.
+For more specific information on the 88E151x, please refer to the
+`public datasheet <https://www.marvell.com/content/dam/marvell/en/public-collateral/transceivers/marvell-phys-transceivers-alaska-88e151x-datasheet-2018-02.pdf>`_.
+
+.. NOTE:: Marvell has a more detailed datasheet that can be obtained by signing an NDA
+          with them. To have an NDA setup, please contact your Marvell representative.
 
 In this documentation, we will refer to the PHYs as PHY0, PHY1, PHY2 and PHY3, 
 corresponding to their placement from right-to-left and as shown in 
 :numref:`ethernet-fmc-top-labelled`.
+
+Precise Timing Protocol (PTP) Time Stamping Support
+---------------------------------------------------
+
+The Marvell 88E151x Gigabit Ethernet PHYs support Precise Timing Protocol (PTP). The
+feature allows time stamping of PTP frames with high precision. The supported time
+stamping frame formats are as defined in IEEE 802.1AS, IEEE 1588 version 1 and version 2.
+
+The PTP feature can be used on the Ethernet FMC with the following limitations:
+
+* **An external 125MHz clock cannot be used as the PTP reference clock source.**
+  Required PTP control register setting: 20_6.8 = 0 (use internal 125MHz clock).
+  An external PTP reference clock can be supplied to the CONFIG pin of the PHY,
+  but the Ethernet FMC does not make this pin available to the FPGA. The PTP
+  reference clock source must be set to use the internal 125MHz clock.
+
+* **Capturing of external events via the PTP Event Request input pin is not supported.**
+  Required PTP control register setting: 20_6.7 = 0.
+  The PTP Event Request pin (LED1) allows the capture of external events and the recording
+  of the time at which the event occurred,
+  but the Ethernet FMC does not make this pin available to the FPGA,
+  instead it is used to drive the right-side LED of the RJ45.
+
+* **Generation of an external signal via the PTP Trigger Generate pin is not supported.**
+  Required PTP control register setting: 20_6.6 = 0.
+  The PTP Trigger Generate pin (LED1) allows the generation of an external signal when
+  the internal Time of Day counter matches the value in a PHY register,
+  but the Ethernet FMC does not make this pin available to the FPGA,
+  instead it is used to drive the right-side LED of the RJ45.
+
+* **Generation of an external interrupt via the LED2 pin is not supported.**
+  The LED2 pin of the PHY can be used to generate an interrupt signal,
+  but the Ethernet FMC does not make this pin available to the FPGA,
+  instead it is used to drive the left-side LED of the RJ45.
+
+Detailed information on using the PTP Time Stamping feature is contained in the complete
+datasheet of the 88E151x PHY that is only available through an NDA with Marvell.
+
 
 RJ45 Connector
 ==============
