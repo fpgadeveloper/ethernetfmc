@@ -376,7 +376,7 @@ Connectors
 
 * **LPC**: Satisfies all of the Ethernet FMC requirements.
 
-.. _ultrazed-eg-notes:
+.. _mini-itx-notes:
 
 Mini-ITX 7100 Base Kit
 ======================
@@ -385,6 +385,8 @@ The Mini-ITX cannot be used with any version of the Ethernet FMC. The FMC connec
 FMC card would face inwards, with the I/O connectors (in this case the RJ45 connectors) pointing towards the center of the
 board. In the case of the Ethernet FMC, the Zynq-7000 device and heat-sink would block access to the RJ45 connectors, making them
 unusable.
+
+.. _ultrazed-eg-notes:
 
 UltraZed EG PCIe Carrier Card
 =============================
