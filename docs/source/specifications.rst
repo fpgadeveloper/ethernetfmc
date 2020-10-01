@@ -44,6 +44,61 @@ in the FPGA to engage with the Ethernet PHYs. Also note that the total power con
 of the Ethernet FMC and development board is dependent on the ambient temperature and channel 
 utilization.
 
+Thermal Information
+===================
+
+We have not performed comprehensive thermal testing on the Ethernet FMC, however we recommend
+that it be operated under ambient temperatures between 0 and 70 degrees C. This advice is based
+on the recommended ambient operating temperatures of the critical devices on the Ethernet FMC.
+These temperatures are listed in the table below.
+
++---------------------+------------------+------------+-----------+--------+
+|                     | DEVICE           | MIN        | MAX       | UNIT   |
++=====================+==================+============+===========+========+
+| | Ethernet FMC      | Ethernet PHY     | 0          | 70        |   C    |
+| | Component         +------------------+------------+-----------+--------+
+| | Ambient Operating | 25MHz Crystal    | -10        | 70        |   C    |
+| | Temperatures      +------------------+------------+-----------+--------+
+|                     | EEPROM           | -40        | 85        |   C    |
+|                     +------------------+------------+-----------+--------+
+|                     | MOSFET (FDV303N) | -55        | 150       |   C    |
+|                     +------------------+------------+-----------+--------+
+|                     | 125MHz LVDS      | -20        | 70        |   C    |
+|                     | Clock Oscillator |            |           |        |
+|                     +------------------+------------+-----------+--------+
+|                     | RJ45 Connector   | 0          | 70        |   C    |
+|                     | (JG0-0025NL)     |            |           |        |
+|                     +------------------+------------+-----------+--------+
+|                     | RJ45 Connector   | 0          | 70        |   C    |
+|                     | (LPJG48851AFNL)  |            |           |        |
++---------------------+------------------+------------+-----------+--------+
+| | Robust Ethernet   | Ethernet PHY     | 0          | 70        |   C    |
+| | FMC Component     +------------------+------------+-----------+--------+
+| | Ambient Operating | 25MHz Crystal    | -10        | 70        |   C    |
+| | Temperatures      +------------------+------------+-----------+--------+
+|                     | EEPROM           | -40        | 85        |   C    |
+|                     +------------------+------------+-----------+--------+
+|                     | MOSFET (FDV303N) | -55        | 150       |   C    |
+|                     +------------------+------------+-----------+--------+
+|                     | 125MHz LVDS      | -20        | 70        |   C    |
+|                     | Clock Oscillator |            |           |        |
+|                     +------------------+------------+-----------+--------+
+|                     | Ethernet         | -40        | 85        |   C    |
+|                     | Magnetics        |            |           |        |
+|                     | (HX5020FNL)      |            |           |        |
+|                     +------------------+------------+-----------+--------+
+|                     | Ethernet         | -40        | 85        |   C    |
+|                     | Magnetics        |            |           |        |
+|                     | (LP5020NLR)      |            |           |        |
+|                     +------------------+------------+-----------+--------+
+|                     | RJ45 Connector   | -40        | 85        |   C    |
+|                     | (RJE72-488-1411) |            |           |        |
++---------------------+------------------+------------+-----------+--------+
+
+Components that are not listed in the table above (such as resistors, capacitors) are selected 
+to have minimum operating temperature that is lower than 0 degrees C, and maximum operating
+temperature that is greater than 70 degrees C.
+
 Reset Timing
 ============
 
