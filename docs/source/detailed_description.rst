@@ -330,6 +330,7 @@ development platform with an active-low signal. There are no pull-up resistors
 connected to the reset signals on the Ethernet FMC card, and we recommend always driving the 
 reset pins from the development platform in order to ensure reliable reset behavior.
 
+.. _phy-config:
 
 PHY Configuration
 =================

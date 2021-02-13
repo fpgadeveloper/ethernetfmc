@@ -585,8 +585,7 @@ Mates with
 Example designs
 ---------------
 
-* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth/tree/9ba57cbffa3a55026fbf4855c8f9d1a746369ed5>`__ 
-  (currently only available for version 2018.2 and for the HPC0 connector)
+* `AXI Ethernet based design <https://github.com/fpgadeveloper/ethernet-fmc-axi-eth>`__
 
 Connectors
 ----------
