@@ -340,9 +340,9 @@ Mates with
 ----------
 
 * `Robust Ethernet FMC 2.5V <https://opsero.com/product/robust-ethernet-fmc/?attribute_supply-voltage-vadj=2.5V>`_ 
-  (when using the PicoZed SoM 7020) (see note [#f1]_)
+  (when using the PicoZed SoM 7015 or 7020) (see note [#f1]_)
 * `Robust Ethernet FMC 1.8V <https://opsero.com/product/robust-ethernet-fmc/?attribute_supply-voltage-vadj=1.8V>`_ 
-  (when using the PicoZed SoM 7015 or 7030)
+  (when using the PicoZed SoM 7030)
 
 Example designs
 ---------------
