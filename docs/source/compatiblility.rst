@@ -113,6 +113,10 @@ Ultrascale and Ultrascale+ boards
 |                                       +----------------------------+-----------------------+
 |                                       | Robust Ethernet FMC 1.8V   | OP041-1V8             |
 +---------------------------------------+----------------------------+-----------------------+
+| :ref:`htg-840-notes`                  | Ethernet FMC 1.8V          | OP031-1V8             |
+|                                       +----------------------------+-----------------------+
+|                                       | Robust Ethernet FMC 1.8V   | OP041-1V8             |
++---------------------------------------+----------------------------+-----------------------+
 
 
 Other boards
@@ -624,6 +628,27 @@ Connectors
 
 * **HPC**: Satisfies all of the Ethernet FMC requirements.
 * **FMC+**: Satisfies all of the Ethernet FMC requirements.
+
+.. _htg-840-notes:
+
+HTG-840
+=======
+
+Mates with
+----------
+
+* `Ethernet FMC 1.8V <https://opsero.com/product/ethernet-fmc/?attribute_supply-voltage-vadj=1.8V>`_ (see note [#f2]_)
+* `Robust Ethernet FMC 1.8V <https://opsero.com/product/robust-ethernet-fmc/?attribute_supply-voltage-vadj=1.8V>`_ (see note [#f2]_)
+
+Example designs
+---------------
+
+No example designs are currently available for this development board.
+
+Connectors
+----------
+
+* **HPC**: Satisfies all of the Ethernet FMC requirements.
 
 .. _arria-10-attila-notes:
 

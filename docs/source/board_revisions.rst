@@ -115,3 +115,11 @@ Rev D
 * Redesigned PCB to 8-layers to internalize RGMII traces in an effort
   to reduce radiated emissions
 
+Rev E
+^^^^^^^
+
+* Date of first manufacture: 2020-08-25
+* PHY thermal vias now via-in-pad
+* Changed R24 and R25 to 240R 0402 from 0603
+* Added CE logo to silkscreen
+

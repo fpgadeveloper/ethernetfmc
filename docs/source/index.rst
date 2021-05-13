@@ -28,6 +28,8 @@ Guides
    :maxdepth: 2
    :caption: User Guide
 
+   getting_started
+   programming_guide
    board_setup
    compatiblility
    eeprom_tool
