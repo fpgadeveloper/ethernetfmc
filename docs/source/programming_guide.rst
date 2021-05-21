@@ -197,7 +197,7 @@ RGMII timing
 
 As described in `RGMII Interface Timing Considerations <http://ethernetfmc.com/rgmii-interface-timing-considerations/>`_, the RGMII
 RX and TX clock skews must be appropriately configured in the PHY for proper operation of the Ethernet FMC. By default, both the RX
-and TX clock skews are enabled in the PHY, however for most applications, the TX clock skew must be disabled. The following pseudocode
+and TX clock skews are enabled in the PHY, however when using the `AXI Ethernet Subsystem IP`_, the TX clock skew must be disabled. The following pseudocode
 illustrates how to disable the TX clock skew, while leaving the RX clock skew enabled:
 
 #. Set :ref:`Any page, Register 22` to 2
@@ -208,5 +208,8 @@ illustrates how to disable the TX clock skew, while leaving the RX clock skew en
    
 #. Write new value to :ref:`Page 2, Register 21`
 
+Note that when using the PS GEM with the GMII-to-RGMII converter IP, both TX and RX clock delays must be enabled in the PHY (the default configuration).
+Ensure however that the "TX clock skew added by PHY" option is enabled in that IP.
 
 .. _public datasheet: https://www.marvell.com/content/dam/marvell/en/public-collateral/transceivers/marvell-phys-transceivers-alaska-88e151x-datasheet.pdf
+.. _AXI Ethernet Subsystem IP: https://www.xilinx.com/products/intellectual-property/axi_ethernet.html

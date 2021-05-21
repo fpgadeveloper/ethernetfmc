@@ -70,6 +70,10 @@ Zynq Ultrascale+ boards
 +---------------------------------------+----------------------------+-----------------------+
 | :ref:`tebf0808-notes`                 | Robust Ethernet FMC 1.8V   | OP041-1V8             |
 +---------------------------------------+----------------------------+-----------------------+
+| :ref:`mercury-pe1-400-notes`          | Ethernet FMC 1.8V          | OP031-1V8             |
+|                                       +----------------------------+-----------------------+
+|                                       | Robust Ethernet FMC 1.8V   | OP041-1V8             |
++---------------------------------------+----------------------------+-----------------------+
 
 
 Series-7 boards
@@ -717,6 +721,33 @@ General board notes
 * The TEBF0808 requires a modified FSBL to setup clocks on the board before the bitstream is
   loaded and the application/OS is launched. The modifications are included in the example
   design repository and they are also described on the `Trenz Wiki for the TE0808 StarterKit <https://wiki.trenz-electronic.de/display/PD/TE0808+StarterKit>`_.
+
+.. _mercury-pe1-400-notes:
+
+Mercury PE1-400 Base Board
+==========================
+
+Mates with
+----------
+
+* `Ethernet FMC 1.8V <https://opsero.com/product/ethernet-fmc/?attribute_supply-voltage-vadj=1.8V>`_ 
+  when using Mercury XU1 module (see note [#f2]_)
+* `Robust Ethernet FMC 1.8V <https://opsero.com/product/robust-ethernet-fmc/?attribute_supply-voltage-vadj=1.8V>`_ 
+  when using Mercury XU1 module (see note [#f2]_)
+
+Example designs
+---------------
+
+No example designs are currently available for this development board. You can however download the pin constraints below:
+
+* :download:`Mercury PE1-400 with XU1 module, FMC0 <downloads/constraints/mercury-pe1-400-fmc0-xu1.xdc>`
+* :download:`Mercury PE1-400 with XU1 module, FMC1 <downloads/constraints/mercury-pe1-400-fmc1-xu1.xdc>`
+
+Connectors
+----------
+
+* **FMC0 (LPC)**: Satisfies all of the Ethernet FMC requirements.
+* **FMC1 (LPC)**: Satisfies all of the Ethernet FMC requirements.
 
 
 Footnotes
